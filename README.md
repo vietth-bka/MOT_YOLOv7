@@ -14,7 +14,7 @@ appearance loss was computed on the basis of Cosine distance between embeddings 
 
 ## Inference
 ```shell
-python demo_track.py —weights /yolov7_path/ —source /input_sequence/
+python demo_track.py —weights "yolov7-path" —source "your-input-sequence"
 ```
 
 ## Performance 
