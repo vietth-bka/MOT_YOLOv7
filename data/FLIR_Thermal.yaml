@@ -1,0 +1,16 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: /home/tungpt37/Workspace/tungpt37/Data/TOD_6_class  # dataset root dir
+#train: /home/tungpt37/Workspace/tungpt37/Data/TOD_6_class/train/images  # train images (relative to 'path')
+#val: /home/tungpt37/Workspace/tungpt37/Data/TOD_6_class/test/images # val images (relative to 'path')
+
+train: /home/tungpt37/Workspace/tungpt37/Data/Detection/FLIR_ADAS_v2/images_thermal_train/images
+val: /home/tungpt37/Workspace/tungpt37/Data/Detection/FLIR_ADAS_v2/images_thermal_val/images
+# number of classes
+nc: 2
+
+# class names
+names:
+  0: person
+  1: car

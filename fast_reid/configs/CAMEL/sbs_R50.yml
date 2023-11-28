@@ -1,0 +1,7 @@
+_BASE_: ../Base-SBS.yml
+
+DATASETS:
+  NAMES: ("CAMEL",)
+  TESTS: ("CAMEL",)
+
+OUTPUT_DIR: logs/camel/sbs_R50

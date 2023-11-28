@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python train.py --data SC_RGB_Thermal.yaml --weights runs/train/flir_yolov7/weights/best.pt --cfg ./cfg/training/yolov7.yaml --hyp data/hyp.scratch.custom.yaml --img 640 --name sc_thermal_yolov7_pretrained_flir --batch-size 32 --epoch 300 --adam
