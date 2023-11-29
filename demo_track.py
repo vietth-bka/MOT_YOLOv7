@@ -45,8 +45,8 @@ def track(save_img=True):
         'class_names': [],
         'track_buffer': 30,
         'with_reid': True,
-        'fast_reid_config': '/home/tungpt37/Workspace/tungpt37/Model/Detection/yolov7-MOT-ReID/fast_reid/logs/camel/sbs_R50_person_big/config.yaml',
-        'fast_reid_weights': '/home/tungpt37/Workspace/tungpt37/Model/Detection/yolov7-MOT-ReID/fast_reid/logs/camel/sbs_R50_person_big/model_best.pth',
+        'fast_reid_config': 'weights/sbs_R50_person_big/config.yaml',
+        'fast_reid_weights': 'weights/sbs_R50_person_big/model_best.pth',
         'device': 'cuda'
     }
     tracker = MCBYTETracker(args, frame_rate=25)

@@ -13,8 +13,11 @@ appearance loss was computed on the basis of Cosine distance between embeddings 
 - Devised a contraint on the size of objects when combining the two informations (motion and appearance).
 
 ## Inference
+You could find our weights and config of Re-Id model [here](https://drive.google.com/drive/folders/1MWRGzJbrTWw9j-dd0gBwBcRm1hvFq4Cb?usp=drive_link) and weights of detector [here](https://drive.google.com/drive/folders/1kFyh8DA5__DywONUbksyXs6_3PKy5YWe?usp=drive_link).
+
+For inference with your own images, run this:
 ```shell
-python demo_track.py —weights "yolov7-path" —source "your-input-sequence"
+python demo_track.py --weights "yolov7-path" --source "your-input-sequence"
 ```
 
 ## Performance 
